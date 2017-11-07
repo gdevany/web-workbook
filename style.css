@@ -1,7 +1,185 @@
-.weekblock {
+html {
+   margin-right: 0;
+   margin-left: 0;
+ }
+ body {
+   margin-top: 0;
+   border-left-width: 10px;
+   border-right-width: 10px;
+   border-top-width: 0;
+   border-style: solid;
+   border-image: linear-gradient(to bottom, rgb(179, 198, 255), rgb(204, 122, 0)) 1 100%;
+ }
+
+ h1 {
+   margin-top: 50px;
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Gloria Hallelujah';
+ }
+
+ .weekblock {
+  width: 220px;
+  height: 220px;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  padding: 20px 10px 10px 10px;
+}
+
+.shadow {
+  text-shadow: 3px 3px 5px black;
+}
+
+.bigtext {
+  font-size: 80px;
+}
+
+.spacemore {
+  letter-spacing: 8px;
+}
+
+.weekhead {
+  text-shadow: 5px 5px 5px black;
+}
+
+.first {
+  padding-top: 50px;
+}
+
+.btn {
+  box-shadow: 3px 3px 3px #002966;
+  margin: 5px;
+  background: rgba(0, 132, 255, 0.2);
+  border: solid black 1px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.spanner {
+  line-height: 0;
+  background-color: rgb(179, 198, 255);
+  margin: 0;
+}
+
+.hero {
+  background: url("./pics/treepic3.JPG") top center;
+  height: 840px;
+  width: 100%;
+  background-size: cover;
+}
+
+.links {
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  background: url("./pics/autumn2.jpg") top center;
+}
+
+.container {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+}
+
+.seethru {
+  background: rgba(0, 132, 255, 0.3);
+  background-size: cover;
+}
+
+.white {
+  color: white;
+}
+
+.fallingleaves {
+  text-align: center;
+}
+
+.fallingleaves span {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin: -280px 40px 54px  -34px;
+  background:url("./pics/leaf2.png");
+  -webkit-animation: fallingleaves 10s infinite  linear;
+  -moz-animation: fallingleaves 10s infinite  linear;
+  transition-timing-function: linear;
+}
+
+.fallingleaves span:nth-child(2n+1) {
+  -webkit-animation-delay: 1.0s;
+  -moz-animation-delay: 1.0;
+}
+
+.fallingleaves span:nth-child(3n+2) {
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+}
+
+.fallingleaves span:nth-child(2n+5) {
+  -webkit-animation-delay: 1.7s;
+  -moz-animation-delay: 1.7s;
+}
+
+.fallingleaves span:nth-child(3n+10) {
+  -webkit-animation-delay: 2.7s;
+  -moz-animation-delay: 2.7s;
+}
+
+.fallingleaves span:nth-child(7n+2) {
+  -webkit-animation-delay: 3.5s;
+  -moz-animation-delay: 3.5s;
+}
+
+.fallingleaves span:nth-child(4n+5) {
+  -webkit-animation-delay: 5.5s;
+  -moz-animation-delay: 5.5s;
+}
+
+.fallingleaves span:nth-child(3n+7) {
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+}
+
+@keyframes fallingleaves {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0px) rotate3d(1,2,3,0deg) scale(0.1,0.1);
+  }
+  25% {
+    opacity: 1;
+    transform: translate(100px, 400px) rotate3d(1,2,3,270deg) scale(0.3,0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(150px, 800px) rotate3d(1,2,3,360deg) scale(0.5,0.5);
+  }
+  75% {
+    opacity: 1;
+    transform: translate(180px, 1200px) rotate3d(1,2,3,0deg) scale(0.8,0.8);
+  }
+  90% {
+    opacity: 1;
+    transform: translate(200px, 1400px) rotate3d(1,2,3,300deg) scale(1.0,1.0);
+  }
+  100% {
+    opacity: 0.1;
+    transform: translate(200px, 1600px) rotate3d(1,2,3,470deg) scale(1.0,1.0);
+  }
+}
+
+
+/*.weekblock {
   width: 80%;
   height: 180px;
-  /*border: solid black 1px;*/
   font-family: monospace serif;
   font-size: 18px;
   margin-bottom: 10px;
@@ -95,4 +273,4 @@
 
 .white {
   color: white;
-}
+}*/
