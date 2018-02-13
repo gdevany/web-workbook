@@ -6,8 +6,8 @@
     "type": "git",
     "url": "git+https://github.com/AustinCodingAcademy/web-workbook.git"
   },
-  "author": "Kevin Colten",
-  "license": "ISC",
+  "author": "Greg Devany (original template: Kevin Colten)",
+  "license": "",
   "bugs": {
     "url": "https://github.com/AustinCodingAcademy/web-workbook/issues"
   },
