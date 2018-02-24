@@ -4,11 +4,11 @@ html {
  }
  body {
    margin-top: 0;
-   /* border-left-width: 10px;
+   border-left-width: 10px;
    border-right-width: 10px;
    border-top-width: 0;
    border-style: solid;
-   border-image: linear-gradient(to bottom, rgb(179, 198, 255), rgb(204, 122, 0)) 1 100%; */
+   border-image: linear-gradient(to bottom, rgb(179, 198, 255), rgb(204, 122, 0)) 1 100%;
  }
 
  .container {
@@ -16,11 +16,6 @@ html {
    margin-right: 0;
    max-width: 100%;
    padding: 0;
-   border-left-width: 10px;
-   border-right-width: 10px;
-   border-top-width: 0;
-   border-style: solid;
-   border-image: linear-gradient(to bottom, rgb(179, 198, 255), rgb(204, 122, 0)) 1 100%;
  }
 
  .row {
@@ -33,6 +28,12 @@ html {
    margin-top: 50px;
    font-family: 'Open Sans', sans-serif;
    font-family: 'Gloria Hallelujah';
+ }
+
+ .selfImg {
+   width: 30%;
+   max-width: 100px;
+   height: auto;
  }
 
  .weekblock {
@@ -84,6 +85,7 @@ html {
 .hero {
   background: url("./pics/treepic3.JPG") top center;
   /* height: 840px; */
+  max-height: 850px;
   width: 100%;
   background-size: cover;
 }
