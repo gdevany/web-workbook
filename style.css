@@ -4,6 +4,18 @@ html {
  }
  body {
    margin-top: 0;
+   /* border-left-width: 10px;
+   border-right-width: 10px;
+   border-top-width: 0;
+   border-style: solid;
+   border-image: linear-gradient(to bottom, rgb(179, 198, 255), rgb(204, 122, 0)) 1 100%; */
+ }
+
+ .container {
+   margin-left: 0;
+   margin-right: 0;
+   max-width: 100%;
+   padding: 0;
    border-left-width: 10px;
    border-right-width: 10px;
    border-top-width: 0;
@@ -11,7 +23,13 @@ html {
    border-image: linear-gradient(to bottom, rgb(179, 198, 255), rgb(204, 122, 0)) 1 100%;
  }
 
- h1 {
+ .row {
+   margin-right: 0;
+   margin-left: 0;
+   width: 100%;
+ }
+
+ .headerFont {
    margin-top: 50px;
    font-family: 'Open Sans', sans-serif;
    font-family: 'Gloria Hallelujah';
@@ -65,7 +83,7 @@ html {
 
 .hero {
   background: url("./pics/treepic3.JPG") top center;
-  height: 840px;
+  /* height: 840px; */
   width: 100%;
   background-size: cover;
 }
@@ -77,19 +95,6 @@ html {
   background: url("./pics/autumn2.jpg") top center;
 }
 
-.container {
-  margin-left: 0;
-  margin-right: 0;
-  width: 100%;
-  padding: 0;
-}
-
-.row {
-  margin-right: 0;
-  margin-left: 0;
-  width: 100%;
-}
-
 .seethru {
   background: rgba(0, 132, 255, 0.3);
   background-size: cover;
@@ -97,10 +102,6 @@ html {
 
 .white {
   color: white;
-}
-
-.fallingleaves {
-  text-align: center;
 }
 
 .fallingleaves span {
