@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/AustinCodingAcademy/web-workbook/issues"
   },
-  "homepage": "https://github.com/AustinCodingAcademy/web-workbook#readme",
+  "homepage": "https://gdevany.github.io/web-workbook/",
   "devDependencies": {
     "htmllint-cli": "^0.0.5",
     "stylelint": "^7.7.1"
