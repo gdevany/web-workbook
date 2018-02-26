@@ -6,6 +6,7 @@
     <link rel=icon href=/favicon.png>
     <!-- Bootstrap CSS -->
     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <base href="#" target="_blank">
@@ -14,7 +15,7 @@
   <body>
     <!-- Cover Page -->
     <!-- add fallingleaves to next class to show leaves falling -->
-    <div class="container hero">
+    <div class="container hero2">
       <!-- <div class="row spanner">
         <div class="col-12 spanner">
           <span></span><span></span><span></span><span></span><span></span><span></span>
@@ -22,24 +23,31 @@
         </div>
       </div> -->
       <div class="row text-center">
-        <div class="col-12 white text-center">
-          <h1 class="headerFont shadow">greg devany</h1>
+        <div class="col-12 white text-center justify-content-center rain">
+          <div class="headerFont shadowBlack monoFont">greg_devany</div>
+          <div class="shadowBlack lastList bigtext">webDeveloper</div>
+        </div>
+        <div class="col-12 white text-center justify-content-center firstList">
+          <div class="col-4 offset-4 col-xl-2 offset-xl-5 profTitle"></div>
+          <div class="shadowBlack monoFont"><small>everything will be ok</small></div>
+          <div class="shadowBlack monoFont lastList"><small>in the end.</small></div>
+
           <!-- <h5>Web Developer</h5>
           <img src='pics/GD2017.png' alt="..." class="rounded-circle img-fluid selfImg">
           <h1 class="headerFont"><small>Portfolio</small></h1><br> -->
         </div>
       </div>
 
-      <div class="row justify-content-center align-items-center firstList text-center">
-        <div class="col-sm-8 col-xl-6 profTitle white">allAboutGreg</div>
-        <div class="col-sm-12 col-xl-8 d-flex">
+      <div class="row justify-content-center align-items-center text-center">
+        <div class="col-8 col-xl-6 profTitle white">allAboutGreg</div>
+        <div class="col-12 col-xl-8 d-flex">
           <div class="weekblock2 d-flex justify-content-center">
             <a
               style="background: url(./pics/GDresume.png) no-repeat top left; background-size: cover"
               class="btn btn-primary custButton d-flex align-items-end"
               href="https://gdevany.github.io/gregDevanyResume2017"
             >
-              <div class="black shadow whiteBack">resume</div>
+              <div class="black shadowWhite whiteBack">resume</div>
             </a>
           </div>
           <div class="weekblock2 d-flex justify-content-center">
@@ -48,7 +56,7 @@
               class="btn btn-primary custButton d-flex align-items-end"
               href="https://www.linkedin.com/in/greg-devany-a4598791"
               >
-                <div class="black shadow whiteBack">linkedIn</div>
+                <div class="black shadowWhite whiteBack">linkedIn</div>
             </a>
           </div>
           <div class="weekblock2 d-flex justify-content-center">
@@ -57,22 +65,23 @@
               class="btn btn-primary custButton d-flex align-items-end"
               href="https://github.com/gdevany?tab=repositories"
             >
-              <div class="black shadow whiteBack">github</div>
+              <div class="black shadowWhite whiteBack">github</div>
             </a>
           </div>
         </div>
+        <div class="col-8 col-xl-6 profTitle2"></div>
       </div>
 
       <div class="row justify-content-center align-items-center notFirstList text-center">
-        <div class="col-sm-8 col-xl-6 profTitle white">westbankPools</div>
-        <div class="col-sm-12 col-xl-8 d-flex">
+        <div class="col-8 col-xl-6 profTitle white">westbankPools</div>
+        <div class="col-12 col-xl-8 d-flex">
           <div class="weekblock2 d-flex justify-content-center">
             <a
               style="background: url(./pics/WestbankPools2React.png) no-repeat top; background-size: cover"
               class="btn btn-primary custButton d-flex align-items-end"
               href="https://gdevany.github.io/westbankpools2/"
             >
-              <div class="black shadow whiteBack">wbpReact.js</div>
+              <div class="black shadowWhite whiteBack">wbpReact.js</div>
             </a>
           </div>
           <div class="weekblock2 d-flex justify-content-center">
@@ -81,7 +90,7 @@
               class="btn btn-primary custButton d-flex align-items-end"
               href="https://gdevany.github.io/wbp2/index.html"
               >
-                <div class="black shadow whiteBack">wbp1</div>
+                <div class="black shadowWhite whiteBack">wbp1</div>
             </a>
           </div>
           <div class="weekblock2 d-flex justify-content-center">
@@ -90,22 +99,23 @@
               class="btn btn-primary custButton d-flex align-items-end"
               href="https://gdevany.github.io/wbp/index.html#"
             >
-              <div class="black shadow whiteBack">wbp1.2</div>
+              <div class="black shadowWhite whiteBack">wbp1.2</div>
             </a>
           </div>
         </div>
+        <div class="col-8 col-xl-6 profTitle2"></div>
       </div>
 
       <div class="row justify-content-center align-items-center notFirstList text-center">
-        <div class="col-sm-8 col-xl-6 profTitle white">classProjects</div>
-        <div class="col-sm-12 col-xl-8 d-flex">
+        <div class="col-8 col-xl-6 profTitle white">classProjects</div>
+        <div class="col-12 col-xl-8 d-flex">
           <div class="weekblock2 d-flex justify-content-center">
             <a
               style="background: url(./pics/BogoByZip.png) no-repeat top; background-size: cover"
               class="btn btn-primary custButton d-flex align-items-end"
               href="https://bogobyzip.herokuapp.com/"
             >
-              <div class="black shadow whiteBack">bogoByZip</div>
+              <div class="black shadowWhite whiteBack">bogoByZip</div>
             </a>
           </div>
           <div class="weekblock2 d-flex justify-content-center">
@@ -114,7 +124,7 @@
               class="btn btn-primary custButton d-flex align-items-end"
               href="https://gdevany.github.io/web-workbook/07week/Checkpoint2/index.html"
               >
-                <div class="black shadow whiteBack">winery</div>
+                <div class="black shadowWhite whiteBack">winery</div>
             </a>
           </div>
           <div class="weekblock2 d-flex justify-content-center">
@@ -123,22 +133,23 @@
               class="btn btn-primary custButton d-flex align-items-end"
               href="https://gdevany.github.io/web-workbook/08week/ageverify/index.html"
             >
-              <div class="black shadow whiteBack">ageVerify</div>
+              <div class="black shadowWhite whiteBack">ageVerify</div>
             </a>
           </div>
         </div>
+        <div class="col-8 col-xl-6 profTitle2"></div>
       </div>
 
       <div class="row justify-content-center align-items-center notFirstList text-center">
-        <div class="col-sm-8 col-xl-6 profTitle white">games</div>
-        <div class="col-sm-12 col-xl-8 d-flex">
+        <div class="col-8 col-xl-6 profTitle white">games</div>
+        <div class="col-12 col-xl-8 d-flex">
           <div class="weekblock2 d-flex justify-content-center">
             <a
               style="background: url(./pics/TicTacToe.png) no-repeat top right; background-size: cover"
               class="btn btn-primary custButton d-flex align-items-end"
               href="https://gdevany.github.io/web-workbook/09week/tictactoe/index.html"
             >
-              <div class="black shadow whiteBack">ticTacToe</div>
+              <div class="black shadowWhite whiteBack">ticTacToe</div>
             </a>
           </div>
           <div class="weekblock2 d-flex justify-content-center">
@@ -147,22 +158,23 @@
               class="btn btn-primary custButton d-flex align-items-end"
               href="https://gdevany.github.io/web-workbook/10week/TOH/index.html"
               >
-                <div class="black shadow whiteBack">towersOfHanoi</div>
+                <div class="black shadowWhite whiteBack">towersOfHanoi</div>
             </a>
           </div>
         </div>
+        <div class="col-8 col-xl-6 profTitle2"></div>
       </div>
 
       <div class="row justify-content-center align-items-center notFirstList lastList text-center">
-        <div class="col-sm-8 col-xl-6 profTitle white">practice</div>
-        <div class="col-sm-12 col-xl-8 d-flex">
+        <div class="col-8 col-xl-6 profTitle white">practice</div>
+        <div class="col-12 col-xl-8 d-flex">
           <div class="weekblock2 d-flex justify-content-center">
             <a
               style="background: url(./pics/FlexboxNews.png) no-repeat top; background-size: cover"
               class="btn btn-primary custButton d-flex align-items-end"
               href="https://gdevany.github.io/web-workbook/03week/flexbox-news/index.html"
             >
-              <div class="black shadow whiteBack">flexboxNews</div>
+              <div class="black shadowWhite whiteBack">flexboxNews</div>
             </a>
           </div>
           <div class="weekblock2 d-flex justify-content-center">
@@ -171,18 +183,27 @@
               class="btn btn-primary custButton d-flex align-items-end"
               href="https://gdevany.github.io/web-workbook/05week/BootstrapResponsiveUtilityProject/index.html"
               >
-                <div class="black shadow whiteBack">bootstrapResp</div>
+                <div class="black shadowWhite whiteBack">bootstrapResp</div>
             </a>
           </div>
-          <div class="weekblock2">
+          <div class="weekblock2 d-flex justify-content-center">
             <a
               style="background: url(./pics/BootstrapGrid.png) no-repeat top; background-size: cover"
               class="btn btn-primary custButton d-flex align-items-end"
               href="https://gdevany.github.io/web-workbook/05week/BootstrapGridProject/index.html"
             >
-              <div class="black shadow whiteBack">bootstrapGrid</div>
+              <div class="black shadowWhite whiteBack">bootstrapGrid</div>
             </a>
           </div>
+        </div>
+        <div class="col-8 col-xl-6 profTitle2"></div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-12 white text-center monoFont">
+          <div class="shadowBlack">if it's not ok,</div>
+          <div class="shadowBlack">it's not the end.</div>
+          <div class="col-4 offset-4 col-xl-2 offset-xl-5 profTitle2"></div>
         </div>
       </div>
 

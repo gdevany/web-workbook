@@ -2,18 +2,30 @@ html {
    margin-right: 0;
    margin-left: 0;
  }
- body {
-   margin-top: 0;
-   border-left-width: 10px;
-   border-right-width: 10px;
-   border-top-width: 0;
-   border-style: solid;
-   border-image: linear-gradient(to bottom, rgb(179, 198, 255), rgb(204, 122, 0)) 1 100%;
- }
 
- .padIt {
-   padding: 5px;
- }
+body {
+  margin-top: 0;
+  /* border-left-width: 10px;
+  border-right-width: 10px;
+  border-top-width: 0;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, rgb(179, 198, 255), rgb(204, 122, 0)) 1 100%; */
+  font-family: 'Inconsolata', monospace;
+
+}
+
+/* .hero {
+  background: url("./pics/flowerpic.JPG") top center;
+  width: 100%;
+  background-size: cover;
+} */
+
+.hero2 {
+  background: url("./pics/flowerpic2.JPG") top center;
+  width: 100%;
+  background-size: cover;
+  min-height: 3500px;
+}
 
  .container {
    margin-left: 0;
@@ -28,11 +40,21 @@ html {
    width: 100%;
  }
 
- .headerFont {
-   margin-top: 50px;
-   font-family: 'Open Sans', sans-serif;
-   font-family: 'Gloria Hallelujah';
- }
+.headerFont {
+  margin-top: 20px;
+  font-size: 3rem;
+}
+
+.rain {
+  background: url("./pics/stormy.jpg") top center;
+  width: 100%;
+  height: 150px;
+  background-size: 100% 150px;
+}
+
+.monoFont {
+  font-family: monospace,monospace;
+}
 
  /* .selfImg {
    width: 30%;
@@ -51,31 +73,46 @@ html {
   padding: 20px 10px 10px 10px;
 } */
 
+ .padIt {
+   padding: 5px;
+ }
+
 .weekblock2 {
  width: 100%;
- font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, serif;
+ /* font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, serif; */
  font-size: 18px;
  font-weight: bold;
- margin-bottom: 10px;
+ /* margin-bottom: 10px; */
 }
 
 .custButton {
   height: 150px;
   width: 100%;
-  max-width: 200px;
+  max-width: 300px;
 }
 
 .profTitle {
   background-color: black;
   border-radius: 25px 25px 0px 0px;
+  min-height: 15px;
 }
 
-.shadow {
+.profTitle2 {
+  background-color: black;
+  border-radius: 0px 0px 25px 25px;
+  min-height: 15px;
+}
+
+.shadowWhite {
   text-shadow: 3px 3px 20px white;
 }
 
+.shadowBlack {
+  text-shadow: 3px 3px 20px black;
+}
+
 .bigtext {
-  font-size: 80px;
+  font-size: 1.5rem;
 }
 
 .spacemore {
@@ -115,11 +152,6 @@ html {
   margin: 0;
 }
 
-.hero {
-  background: url("./pics/flowerpic.JPG") top center;
-  width: 100%;
-  background-size: cover;
-}
 /*
 .links {
   background-size: cover;
