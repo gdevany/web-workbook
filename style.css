@@ -34,39 +34,40 @@ html {
    font-family: 'Gloria Hallelujah';
  }
 
- .selfImg {
+ /* .selfImg {
    width: 30%;
    max-width: 100px;
    height: auto;
- }
+ } */
 
- .weekblock {
+ /* .weekblock {
   width: 220px;
   height: 220px;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, serif;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
-  /* border-radius: 50%; */
+  border-radius: 50%;
   padding: 20px 10px 10px 10px;
-}
+} */
 
 .weekblock2 {
  width: 100%;
- /* height: 150px; */
  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, serif;
  font-size: 18px;
  font-weight: bold;
  margin-bottom: 10px;
- /* border-radius: 50%; */
- /* padding: 20px 10px 10px 10px; */
 }
 
 .custButton {
   height: 150px;
   width: 100%;
-  /* max-width: 300px; */
-  padding: 5px;
+  max-width: 200px;
+}
+
+.profTitle {
+  background-color: black;
+  border-radius: 25px 25px 0px 0px;
 }
 
 .shadow {
@@ -85,17 +86,27 @@ html {
   text-shadow: 5px 5px 5px black;
 }
 
-.first {
+.firstList {
   padding-top: 50px;
+}
+
+.notFirstList {
+  padding-top: 20px;
+}
+
+.lastList {
+  padding-bottom: 50px;
+}
+
+.whiteBack {
+  background-color: white;
+  font-size: 0.7rem;
+  font-weight: bold;
 }
 
 .btn {
   box-shadow: 3px 3px 3px #002966;
-  margin: 5px;
-  background: rgba(0, 132, 255, 0.2);
   border: solid black 1px;
-  font-weight: bold;
-  font-size: 12px;
 }
 
 .spanner {
@@ -105,9 +116,7 @@ html {
 }
 
 .hero {
-  background: url("./pics/flowerpic.JPG") bottom center;
-  /* height: 840px; */
-  max-height: 850px;
+  background: url("./pics/flowerpic.JPG") top center;
   width: 100%;
   background-size: cover;
 }
