@@ -142,6 +142,10 @@ body {
   min-height: 20px;
 }
 
+.moveUp {
+  margin-top: -27px;
+}
+
 .padIt {
   padding: 5px;
 }
@@ -162,6 +166,7 @@ body {
   background-color: white;
   font-size: 0.7rem;
   font-weight: bold;
+  padding: 0 4px;
 }
 
 .borderLeftRight {
