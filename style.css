@@ -14,17 +14,29 @@ body {
 
 }
 
-/* .hero {
-  background: url("./pics/flowerpic.JPG") top center;
+.hero {
   width: 100%;
-  background-size: cover;
-} */
+  min-height: 3500px;
+  display: block;
+  position: relative;
+}
 
-.hero2 {
-  background: url("./pics/flowerpic2.JPG") top center;
+.hero::after {
+  /* background: url("./pics/flowerpic2.JPG") top center; */
+  background: linear-gradient(#47586a, rgba(255, 255, 255, 0), transparent), url("./pics/flowerpic2.JPG") top center;
+
   width: 100%;
   background-size: cover;
   min-height: 3500px;
+
+  content: "";
+  /* opacity: 0.5; */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
  .container {
@@ -41,7 +53,8 @@ body {
  }
 
 .headerFont {
-  margin-top: 20px;
+  margin-top: -15px;
+  margin-bottom: -5px;
   font-size: 3rem;
 }
 
@@ -92,6 +105,7 @@ body {
   background-color: black;
   border-radius: 25px 25px 0px 0px;
   min-height: 15px;
+  padding-top: 10px;
 }
 
 .profTitle2 {
@@ -124,26 +138,36 @@ body {
   line-height: 0.5em;
 }
 
+.heightIt {
+  min-height: 20px;
+}
+
 .padIt {
   padding: 5px;
 }
 
 .firstList {
-  padding-top: 50px;
+  margin-top: 50px;
 }
 
 .notFirstList {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .lastList {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .whiteBack {
   background-color: white;
   font-size: 0.7rem;
   font-weight: bold;
+}
+
+.borderLeftRight {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  background: #47586a;
 }
 
 .btn {
@@ -161,14 +185,6 @@ span {
   line-height: 0;
   z-index: 1;
 }
-
-/*
-.links {
-  background-size: cover;
-  height: auto;
-  width: 100%;
-  background: url("./pics/autumn2.jpg") top center;
-} */
 
 .seethru {
   background: rgba(0, 132, 255, 0.3);
