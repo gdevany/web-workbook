@@ -1,7 +1,7 @@
 html {
-   margin-right: 0;
-   margin-left: 0;
- }
+  margin-right: 0;
+  margin-left: 0;
+}
 
 body {
   margin-top: 0;
@@ -9,9 +9,9 @@ body {
   border-right-width: 10px;
   border-top-width: 0;
   border-style: solid;
-  border-image: linear-gradient(to bottom, rgb(179, 198, 255), rgb(204, 122, 0)) 1 100%;
-  font-family: 'Inconsolata', monospace;
-
+  border-image: linear-gradient(to bottom, rgb(179, 198, 255), rgb(204, 122, 0))
+    1 100%;
+  font-family: "Inconsolata", monospace;
 }
 
 .hero {
@@ -23,7 +23,8 @@ body {
 
 .hero::after {
   /* background: url("./pics/flowerpic2.JPG") top center; */
-  background: linear-gradient(#47586a, rgba(255, 255, 255, 0), transparent), url("./pics/flowerpic2.JPG") top center;
+  background: linear-gradient(#47586a, rgba(255, 255, 255, 0), transparent),
+    url("./pics/flowerpic2.JPG") top center;
 
   width: 100%;
   background-size: cover;
@@ -39,23 +40,22 @@ body {
   z-index: -1;
 }
 
- .container {
-   margin-left: 0;
-   margin-right: 0;
-   max-width: 100%;
-   padding: 0;
- }
+.container {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+  padding: 0;
+}
 
- .row {
-   margin-right: 0;
-   margin-left: 0;
-   width: 100%;
- }
+.row {
+  margin-right: 2em;
+  margin-left: 2em;
+}
 
 .headerFont {
-  margin-top: -15px;
+  margin-top: -10px;
   margin-bottom: -5px;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .rain {
@@ -67,32 +67,16 @@ body {
 }
 
 .monoFont {
-  font-family: monospace,monospace;
+  font-family: monospace, monospace;
 }
 
- /* .selfImg {
-   width: 30%;
-   max-width: 100px;
-   height: auto;
- } */
-
- /* .weekblock {
-  width: 220px;
-  height: 220px;
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, serif;
+.weekblock2 {
+  width: 100%;
+  /* font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, serif; */
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 10px;
-  border-radius: 50%;
-  padding: 20px 10px 10px 10px;
-} */
-
-.weekblock2 {
- width: 100%;
- /* font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, serif; */
- font-size: 18px;
- font-weight: bold;
- /* margin-bottom: 10px; */
+  /* margin-bottom: 10px; */
+  background-color: #47586a;
 }
 
 .custButton {
@@ -102,14 +86,14 @@ body {
 }
 
 .profTitle {
-  background-color: black;
+  background-color: #2d2b2c;
   border-radius: 25px 25px 0px 0px;
   min-height: 15px;
   padding-top: 10px;
 }
 
 .profTitle2 {
-  background-color: black;
+  background-color: #2d2b2c;
   border-radius: 0px 0px 25px 25px;
   min-height: 15px;
 }
@@ -169,6 +153,14 @@ body {
   padding: 0 4px;
 }
 
+.darkBack {
+  background-color: #2d2b2c;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 0 4px;
+}
+
 .borderLeftRight {
   border-left: 2px solid black;
   border-right: 2px solid black;
@@ -202,77 +194,4 @@ span {
 
 .black {
   color: black;
-}
-
-.fallingleaves span {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  margin: -280px 40px 54px  -34px;
-  background:url("./pics/leaf2.png");
-  -webkit-animation: fallingleaves 10s infinite  linear;
-  -moz-animation: fallingleaves 10s infinite  linear;
-  transition-timing-function: linear;
-}
-
-.fallingleaves span:nth-child(2n+1) {
-  -webkit-animation-delay: 1.0s;
-  -moz-animation-delay: 1.0;
-}
-
-.fallingleaves span:nth-child(3n+2) {
-  -webkit-animation-delay: 1.5s;
-  -moz-animation-delay: 1.5s;
-}
-
-.fallingleaves span:nth-child(2n+5) {
-  -webkit-animation-delay: 1.7s;
-  -moz-animation-delay: 1.7s;
-}
-
-.fallingleaves span:nth-child(3n+10) {
-  -webkit-animation-delay: 2.7s;
-  -moz-animation-delay: 2.7s;
-}
-
-.fallingleaves span:nth-child(7n+2) {
-  -webkit-animation-delay: 3.5s;
-  -moz-animation-delay: 3.5s;
-}
-
-.fallingleaves span:nth-child(4n+5) {
-  -webkit-animation-delay: 5.5s;
-  -moz-animation-delay: 5.5s;
-}
-
-.fallingleaves span:nth-child(3n+7) {
-  -webkit-animation-delay: 8s;
-  -moz-animation-delay: 8s;
-}
-
-@keyframes fallingleaves {
-  0% {
-    opacity: 1;
-    transform: translate(0, 0px) rotate3d(1,2,3,0deg) scale(0.1,0.1);
-  }
-  25% {
-    opacity: 1;
-    transform: translate(100px, 400px) rotate3d(1,2,3,270deg) scale(0.3,0.3);
-  }
-  50% {
-    opacity: 1;
-    transform: translate(150px, 800px) rotate3d(1,2,3,360deg) scale(0.5,0.5);
-  }
-  75% {
-    opacity: 1;
-    transform: translate(180px, 1200px) rotate3d(1,2,3,0deg) scale(0.8,0.8);
-  }
-  90% {
-    opacity: 1;
-    transform: translate(200px, 1400px) rotate3d(1,2,3,300deg) scale(1.0,1.0);
-  }
-  100% {
-    opacity: 0.1;
-    transform: translate(200px, 1600px) rotate3d(1,2,3,470deg) scale(1.0,1.0);
-  }
 }
