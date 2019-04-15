@@ -178,7 +178,7 @@ body {
   /* border-radius: 10px 10px 0 0; */
   text-decoration:none; 
   display:inline-block;
-  /* text-shadow: -1px -1px 0 rgba(0,0,0,0.3); */
+  text-shadow: -1px -1px 0 rgba(239, 237, 199, 0.83);
   font-weight:bold; 
   color: #373737;
   background-color: #f3de9a; 
@@ -195,12 +195,9 @@ body {
   width: 80vw;
   max-width: 500px;
   border:1px solid black; 
-  /* -webkit-border-radius: 3px;  */
-  /* -moz-border-radius: 3px; */
-  /* border-radius: 10px 10px 0 0; */
   text-decoration:none; 
   display:inline-block;
-  /* text-shadow: -1px -1px 0 rgba(0,0,0,0.3); */
+  text-shadow: -1px -1px 0 rgba(199, 195, 138, 0.57);
   font-weight:bold; 
   color: #f4f4f4;
   background-color: #675f44; 
@@ -216,6 +213,7 @@ body {
 .titleBar {
   width: 100%;
   background-color: #13110c;
+  text-shadow: -1px -1px 0 rgba(199, 195, 138, 0.57);
   font-size: 14px;
   font-weight: 600;
 }
