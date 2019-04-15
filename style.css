@@ -5,11 +5,11 @@ html {
 
 body {
   margin-top: 0;
-  border-left-width: 10px;
-  border-right-width: 10px;
-  border-top-width: 0;
-  border-style: solid;
-  border-image: linear-gradient(to bottom, rgb(179, 198, 255), rgb(204, 122, 0))
+  /* border-left-width: 10px; */
+  /* border-right-width: 10px; */
+  /* border-top-width: 0; */
+  /* border-style: solid; */
+  /* border-image: linear-gradient(to bottom, rgb(179, 198, 255), rgb(204, 122, 0)) */
     1 100%;
   font-family: 'Open Sans', san-serif;
   -webkit-font-smoothing: antialiased;
@@ -23,15 +23,19 @@ body {
   /* padding: 50px 0; */
 }
 
+.contentBox {
+  padding: 20px;
+  background: #f4f4f4;
+}
+
 .row {
   margin-right: 1em;
   margin-left: 1em;
 }
 
 .headerFont {
-  margin-top: -10px;
-  margin-bottom: -5px;
-  font-size: 2rem;
+  font-size: 2.4rem;
+  font-weight: 600;
 }
 
 .monoFont {
@@ -39,15 +43,16 @@ body {
 }
 
 .linkLine {
-  padding: 5px 0;
+  padding: 3px 0;
+  max-width: 100%;
 }
 
 .weekblock2 {
   font-size: 18px;
   font-weight: bold;
   height: 150px;
-  width: 25vw;
-  max-width: 300px;
+  width: 50vw;
+  max-width: 250px;
   padding: 0 5px;
 }
 
@@ -55,16 +60,17 @@ body {
   height: 150px;
   width: 100%;
   max-width: 300px;
+  border-radius: 0;
 }
 
 .profTitle {
   min-height: 15px;
-  padding: 20px 0 10px;
+  padding: 15px 10px 10px;
   color: white;
 }
 
 .roundTop {
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 7px 7px 0px 0px;
 }
 
 .roundBottom {
@@ -80,10 +86,6 @@ body {
   text-shadow: 3px 3px 20px black;
 }
 
-.bigtext {
-  font-size: 1.5rem;
-}
-
 .noPad {
   padding: 0 !important;
 }
@@ -91,10 +93,10 @@ body {
 .firstList {
   margin-top: 50px;
 }
-
+/* 
 .notFirstList {
   margin-top: 50px;
-}
+} */
 
 .lastList {
   margin-bottom: 50px;
@@ -133,8 +135,8 @@ body {
 }
 
 .btn {
-  box-shadow: 3px 3px 3px #557A95;
-  border: solid black 1px;
+  /* box-shadow: 1px 0 1px #557A95; */
+  border: solid grey 1px;
 }
 
 .white {
@@ -145,20 +147,19 @@ body {
   color: #373737;
 }
 
-.bigTab {
-  width: 50vw;
+/* .bigTab {
+  font-weight: 600;
+  width: 80vw;
   max-width: 500px;
   background-color: #5D5C61;
   border-top: 1px solid black;
     border-right: 1px solid black;
     border-left: 1px solid black;
-  /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
-}
+} */
 
-.littleTab {
+/* .littleTab {
   color: #373737;
-  font-weight: 800;
-  width: 35vw;
+  width: 50vw;
   max-width: 280px;
   background-color: #C0B283;
   border-top: 1px solid grey;
@@ -166,11 +167,57 @@ body {
   -webkit-box-shadow: inset -1px 0 3px #333;
    -moz-box-shadow:    inset -1px 0 3px #333;
    box-shadow:         inset -1px 0 3px #333;
+} */
+
+.littleTab {
+  width: 50vw;
+  max-width: 280px;
+  border:1px solid #ad9b5e; 
+  /* -webkit-border-radius: 3px;  */
+  /* -moz-border-radius: 3px; */
+  /* border-radius: 10px 10px 0 0; */
+  text-decoration:none; 
+  display:inline-block;
+  /* text-shadow: -1px -1px 0 rgba(0,0,0,0.3); */
+  font-weight:bold; 
+  color: #373737;
+  background-color: #f3de9a; 
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f3de9a), to(#caba87));
+  background-image: -webkit-linear-gradient(top, #f3de9a, #caba87);
+  background-image: -moz-linear-gradient(top, #f3de9a, #caba87);
+  background-image: -ms-linear-gradient(top, #f3de9a, #caba87);
+  background-image: -o-linear-gradient(top, #f3de9a, #caba87);
+  background-image: linear-gradient(to bottom, #f3de9a, #caba87);
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f3de9a, endColorstr=#caba87);
+}
+
+.bigTab {
+  width: 80vw;
+  max-width: 500px;
+  border:1px solid black; 
+  /* -webkit-border-radius: 3px;  */
+  /* -moz-border-radius: 3px; */
+  /* border-radius: 10px 10px 0 0; */
+  text-decoration:none; 
+  display:inline-block;
+  /* text-shadow: -1px -1px 0 rgba(0,0,0,0.3); */
+  font-weight:bold; 
+  color: #f4f4f4;
+  background-color: #675f44; 
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#675f44), to(#13110c));
+  background-image: -webkit-linear-gradient(top, #675f44, #13110c);
+  background-image: -moz-linear-gradient(top, #675f44, #13110c);
+  background-image: -ms-linear-gradient(top, #675f44, #13110c);
+  background-image: -o-linear-gradient(top, #675f44, #13110c);
+  background-image: linear-gradient(to bottom, #675f44, #13110c);
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#675f44, endColorstr=#13110c);
 }
 
 .titleBar {
   width: 100%;
-  background-color: #373737;
+  background-color: #13110c;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 /* .hero {
