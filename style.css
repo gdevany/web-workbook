@@ -17,10 +17,10 @@ body {
 }
 
 .container {
-  background-image: url("./pics/bluePaper.jpg");
+  background-image: url("./pics/greypaper.jpg");
   background-color: #f4f4f4;
   max-width: 100%;
-  padding: 50px 0;
+  /* padding: 50px 0; */
 }
 
 .row {
@@ -69,6 +69,7 @@ body {
 
 .roundBottom {
   border-radius: 0px 0px 10px 10px;
+  padding: 0;
 }
 
 .shadowWhite {
@@ -97,6 +98,10 @@ body {
 
 .lastList {
   margin-bottom: 50px;
+}
+
+.padTop {
+  padding-top: 50px;
 }
 
 .padBottom {
@@ -143,10 +148,11 @@ body {
 .bigTab {
   width: 50vw;
   max-width: 500px;
-  /* background-color: #373737; */
   background-color: #5D5C61;
-
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+  /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
 }
 
 .littleTab {
@@ -157,6 +163,9 @@ body {
   background-color: #C0B283;
   border-top: 1px solid grey;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  -webkit-box-shadow: inset -1px 0 3px #333;
+   -moz-box-shadow:    inset -1px 0 3px #333;
+   box-shadow:         inset -1px 0 3px #333;
 }
 
 .titleBar {
