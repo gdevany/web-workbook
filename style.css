@@ -5,6 +5,7 @@ html {
 
 body {
   margin-top: 0;
+  letter-spacing: 0.1em;
   font-family: "Open Sans", san-serif;
   /* font-family: "Lato", san-serif; */
   -webkit-font-smoothing: antialiased;
@@ -12,14 +13,17 @@ body {
 }
 
 .container {
-  background-image: url("./pics/greypaper.jpg");
-  background-color: #f4f4f4;
+  /* background-image: url("./pics/greyblack.jpg"); */
+  background-color: #3e3e3e;
   max-width: 100%;
 }
 
 .contentBox {
   padding: 20px;
   background: #f4f4f4;
+  background-image: url("./pics/greyblack.jpg");
+  /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 .row {
@@ -59,12 +63,12 @@ body {
 
 .profTitle {
   min-height: 15px;
-  padding: 15px 10px 10px;
+  /* padding: 10px 10px 10px; */
   color: white;
 }
 
 .roundTop {
-  border-radius: 7px 7px 0px 0px;
+  border-radius: 15px 15px 0px 0px;
 }
 
 .roundBottom {
@@ -73,7 +77,7 @@ body {
 }
 
 .shadowWhite {
-  text-shadow: 3px 3px 20px white;
+  text-shadow: 0 0 10px white;
 }
 
 .shadowBlack {
@@ -139,10 +143,10 @@ body {
 .littleTab {
   width: 50vw;
   max-width: 280px;
-  /* border: 1px solid #ad9b5e; */
-  border-left: 6px solid #d8c174;
-    border-top: 2px solid #ad9b5e;
-    border-right: 2px solid #ad9b5e;
+  padding: 10px;
+  border-left: 1px solid #ad9b5e;
+    border-top: 5px solid #d8c174;
+    border-right: 5px solid #ad9b5e;
   text-decoration: none;
   display: inline-block;
   text-shadow: -1px -1px 0 rgba(239, 237, 199, 0.83);
@@ -167,13 +171,15 @@ body {
 .bigTab {
   width: 80vw;
   max-width: 500px;
+  min-height: 20px;
+  padding: 5px;
   border: 1px solid black;
   text-decoration: none;
   display: inline-block;
   font-weight: bold;
   color: #f4f4f4;
-  background-color: #675f44;
-  background-image: -webkit-gradient(
+  background-color: #3a3526;
+  /* background-image: -webkit-gradient(
     linear,
     left top,
     left bottom,
@@ -185,12 +191,22 @@ body {
   background-image: -ms-linear-gradient(top, #675f44, #13110c);
   background-image: -o-linear-gradient(top, #675f44, #13110c);
   background-image: linear-gradient(to bottom, #675f44, #13110c);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#675f44, endColorstr=#13110c);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#675f44, endColorstr=#13110c); */
+}
+
+.bigTabMiddle {
+  width: 80vw;
+  max-width: 500px;
+  border: 1px solid black;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  background-color: #3a3526;
 }
 
 .titleBar {
   width: 100%;
-  background-color: #13110c;
+  /* background-color: #13110c; */
   text-shadow: -1px -1px 0 rgba(199, 195, 138, 0.57);
   font-size: 14px;
   font-weight: 600;
