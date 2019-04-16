@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  /* background-image: url("./pics/greyblack.jpg"); */
+  background-image: url("./pics/greengrass.jpg");
   background-color: #3e3e3e;
   max-width: 100%;
 }
@@ -34,6 +34,7 @@ body {
 .headerFont {
   font-size: 2.4rem;
   font-weight: 600;
+  color: #f3de9a;
 }
 
 .monoFont {
@@ -77,7 +78,7 @@ body {
 }
 
 .shadowWhite {
-  text-shadow: 0 0 10px white;
+  /* text-shadow: 0 0 10px white; */
 }
 
 .shadowBlack {
