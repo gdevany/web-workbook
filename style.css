@@ -26,7 +26,7 @@ body {
   background-image: url("./pics/greyblack.jpg");
   background-size: cover;
   /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
-  box-shadow: 0 19px 38px rgba(0,0,0,0.90), 0 15px 12px rgba(0,0,0,0.9);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.9), 0 15px 12px rgba(0, 0, 0, 0.9);
 }
 
 .row {
@@ -77,6 +77,7 @@ body {
 
 .roundBottom {
   border-radius: 0px 0px 10px 10px;
+  border-bottom: 1px solid #00000070;
   padding: 0;
 }
 
@@ -149,9 +150,9 @@ body {
   width: 50vw;
   max-width: 280px;
   padding: 10px;
-  border-left: 1px solid #ad9b5e;
-    border-top: 5px solid #d8c174;
-    border-right: 5px solid #ad9b5e;
+  /* border-left: 1px solid #ad9b5e;
+  border-top: 5px solid #d8c174; */
+  border-right: 4px solid #ad9b5e;
   text-decoration: none;
   display: inline-block;
   text-shadow: -1px -1px 0 rgba(239, 237, 199, 0.83);
@@ -173,12 +174,18 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f3de9a, endColorstr=#caba87);
 }
 
+.littleTab-border {
+  border-left: 1px solid #ad9b5e;
+  border-top: 4px solid #d8c174;
+  /* border-right: 5px solid #ad9b5e; */
+}
+
 .bigTab {
   width: 80vw;
   max-width: 500px;
   min-height: 20px;
   padding: 5px;
-  border: 1px solid black;
+  border-right: 4px solid #6b5f41;
   text-decoration: none;
   display: inline-block;
   font-weight: bold;
@@ -199,10 +206,15 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#675f44, endColorstr=#13110c); */
 }
 
+.bigTab-border {
+  border-left: 1px solid #3a3425;
+  border-top: 2px solid #b5a273;
+}
+
 .bigTabMiddle {
   width: 80vw;
   max-width: 500px;
-  border: 1px solid black;
+  border-right: 4px solid #6b5f41;
   text-decoration: none;
   display: inline-block;
   font-weight: bold;
