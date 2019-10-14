@@ -31,10 +31,18 @@ body {
   margin-left: 1em;
 }
 
+.headerBlock {
+  border: 5px solid #e2ddca;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 360px;
+  background-color: #010000;
+}
+
 .headerFont {
   font-size: 2.4rem;
   font-weight: 600;
-  color: #f3de9a;
+  color: #e2ddca;
 }
 
 .monoFont {
@@ -45,7 +53,7 @@ body {
   padding: 5px 0;
   max-width: 100%;
   width: 100%;
-  background-color: #3a3526;
+  background-color: #010000;
 }
 
 .weekblock2 {
@@ -151,47 +159,30 @@ body {
   align-self: flex-start;
   width: 50vw;
   max-width: 280px;
-  padding: 10px;
-  border-right: 4px solid #ad9b5e;
+  padding: 6px;
   text-decoration: none;
   display: inline-block;
-  text-shadow: -1px -1px 0 rgba(239, 237, 199, 0.83);
   font-weight: bold;
   color: #373737;
-  background-color: #f3de9a;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#f3de9a),
-    to(#caba87)
-  );
-  background-image: -webkit-linear-gradient(top, #f3de9a, #caba87);
-  background-image: -moz-linear-gradient(top, #f3de9a, #caba87);
-  background-image: -ms-linear-gradient(top, #f3de9a, #caba87);
-  background-image: -o-linear-gradient(top, #f3de9a, #caba87);
-  background-image: linear-gradient(to bottom, #f3de9a, #caba87);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f3de9a, endColorstr=#caba87);
+  background-color: #e2ddca;
 }
 
 .littleTab-border {
   border-left: 1px solid #ad9b5e;
-  border-top: 4px solid #d8c174;
-  /* border-right: 5px solid #ad9b5e; */
+  border-right: 3px solid #ad9b5e;
+  border-top: 3px solid #d8c174;
 }
 
 .bigTab {
   align-self: flex-start;
   width: 100%;
-  /* max-width: 500px; */
   min-height: 10px;
   padding: 5px;
-  /* border-right: 4px solid #6b5f41; */
   text-decoration: none;
   display: inline-block;
   font-weight: bold;
   color: #f4f4f4;
-  background-color: #3a3526;
+  background-color: #010000;
 }
 
 .bigTab-border {
