@@ -14,13 +14,13 @@ body {
 
 .container {
   background-image: url("./pics/greengrass.jpg");
-  background-color: #3e3e3e;
+  background-color: #e2ddca;
   background-size: cover;
   max-width: 100%;
 }
 
 .contentBox {
-  /* padding: 20px; */
+  /* padding: 0; */
   /* background: #f4f4f4; */
   /* border: 1px solid #f3de9a91; */
   /* box-shadow: 0 19px 38px rgba(0, 0, 0, 0.9), 0 15px 12px rgba(0, 0, 0, 0.9); */
@@ -72,6 +72,7 @@ body {
   width: 100%;
   max-width: 300px;
   border-radius: 0;
+  padding: 0;
 }
 
 .profTitle {
